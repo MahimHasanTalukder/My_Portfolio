@@ -1,0 +1,309 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #8e8e8e;
+    font-family: sans-serif;    
+    
+}
+
+/* nav part */
+.nav {
+    background: rgb(45, 145, 191);
+    display:flex;
+}
+
+.nav img {
+    width: 60px;
+    height: auto;
+}
+.nav ul{ 
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+.nav ul li {
+    margin-left:60px;
+    text-transform: capitalize;
+    margin-top:auto ;
+    margin-right: -10px;
+
+
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #000;   
+}
+
+.nav ul li a:hover {
+ border: 1px solid rgba(254, 78, 58, 0.849);
+ border-radius: 1px;
+ padding: 5px;
+ background-color:rgba(254, 78, 58, 0.849);
+}
+/* header part */
+header {
+    background-image: url(img/header.jpg);
+    background-repeat: repeat;
+    max-width: 100%;
+    height: 500px;
+    margin-top: -50px;
+}
+
+header img {
+   
+    width: 200px;
+    height: auto;
+    margin-left:44% ;
+    margin-top: 25px;
+}
+
+header p {
+    color: rgb(217, 255, 80);
+    font-size: 50px;
+    margin-top: 14px;
+    text-align: center;
+}
+
+header h2 {
+    color: rgb(217, 255, 80);
+    font-size: 60px;
+    text-align: center;
+}
+
+/* main-body */
+
+.main-body .main .h2 {
+text-align: center;
+color: aqua;
+border: 2px solid black;
+border-radius: 2px;
+padding: 10px;
+   
+}
+
+.main-body .h2 {
+    align-items: center;
+}
+
+.main-body .main .body {
+    width: 25%;
+    height: auto;
+    margin-left: 10px;
+    border: 2px solid #000;
+}
+
+.main-body .main .Information {
+
+    justify-items: center;
+}
+
+.main-body .main .wto {
+    width: 20%;
+}
+
+.main-body .main .wto p {
+    margin-right: -200;
+    margin-top: -150px;
+}
+
+.main-body .main .body,
+.main-body .main .Information {
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+
+/* end-body */
+
+.end-body .education {
+width: 25%;
+ margin-top: 120px;
+ border: 1px solid black;
+ border-radius: 50%;
+ text-align: center;
+ background-color: aquamarine;
+ margin-left: 38px;
+ padding: 10px;
+
+}
+
+.end-body .experience {
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    background-color: aquamarine;
+    margin-left: 50%;
+    padding: 10px;
+}
+
+.mt {
+    margin-top: -290px;
+}
+
+.end-body .home h3 {
+    width: 10%;
+    padding-left: 20px;
+    border-right:3px solid black;
+}
+.en{
+    display:flex;
+}
+
+.en h2{
+margin-left: 15px;
+}
+
+.dob .h2,.dob h4,.dob p {
+    width: 50%;
+}
+.now {
+  margin-left: 500px;
+  border-left:2px solid aqua ;
+  padding-left:30px;
+}
+
+.now li {
+    line-height: 20px;
+ 
+}
+
+.skills h2 {
+    text-align: center;
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: aquamarine;
+}
+
+.projects h4,
+.projects h2 {
+    margin-left: 15px;
+}
+
+.dot{
+    width: 50%;
+} 
+ 
+.did {
+margin-left: 70%;   
+margin-top: -200px;
+}
+
+.dot,.tab {
+    list-style: none;
+    color: rgba(231, 106, 92, 0.849) ;
+   
+}
+
+.projects {
+    margin-top: 75px ;
+    color: beige;
+}
+
+.projects h2 {
+    color: indianred;
+}
+.ami {
+    width: 30%;
+}
+.ami svg {
+    width: 40px;
+    height: 40px;   
+    margin-left: 15px;
+}
+
+.in {
+    margin-left: 70%;
+    margin-top: -70;
+}
+
+
+
+@media all and (max-width:768px) {
+   .main-body .main .wto {
+        width: 100%;
+    }
+
+    .main-body .main .body {
+        width: 90%;
+    }
+
+    .main-body .main .wto p {
+    margin-right: 0;
+    margin-top: 10px;
+    margin-left: 15px;
+    }
+    .end-body .education,.end-body .experience {
+        width: 90%;
+
+    }
+    .end-body .experience {
+margin-left: 0;
+    }
+
+    .mt {
+        margin-top: 0;
+    }
+   .now {
+    margin-left: 20px;
+   }
+
+   .en {
+    border: none;
+   }
+
+   .end-body .home h3 {
+    width: 100%;
+   }
+   .did {
+width: 100%;
+margin-top: 0;
+margin-left: 0;
+   }
+   .dot {
+    width: 100%;
+   }
+
+   .skills h2 {
+    margin-right: 0;
+   }
+.in {
+    margin: 0;
+}
+   .ami {
+    width: 100%;
+   }
+
+   header p {
+    font-size: 30px;
+   }
+
+   
+.end-body .education {
+    margin-left: 6px;
+}
+
+header img {
+    width: 188px;
+    margin-left: 35%;
+}
+header h2 {
+    font-size: 35px;
+    margin-top: 50px;
+}
+
+.nav {
+ display: none;
+}
+}
+
+@media all and (max-width:320px) {
+    header img {
+        margin-left: 21%;
+    }
+}
